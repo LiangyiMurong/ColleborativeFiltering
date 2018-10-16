@@ -19,7 +19,7 @@ Final submission is an ensembled result of 3 models:
 **Testing set**: around 160,000 records
 
 **Rating distribution in train**:
-![](distribution.png)
+![](distribution.PNG)
 
 ## Analysis:
 n_factors is a key parameter in both SVD and SVD++ and it could be understood as the ‘Concept’ we talked about in class. So I suspect that high value of n_factors indicates a detailed classification of the movies while low value of n_factors indicates a general classification. This means that the behavior of these different models would behave differently, and each would capture some of the information. And that is the main reason that I ensembled my models.
@@ -28,4 +28,4 @@ SVD takes a relatively short time to train (6 minutes for the whole training set
 
 ## Submission Score:
 
-![](sub.png)
+![](sub.PNG)
